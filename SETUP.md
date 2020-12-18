@@ -2,7 +2,7 @@
 
 ## Fork the repository
 
-Fork the https://github.com/yogeek/podtato-head/ in your GitHub account.
+Fork the https://github.com/gozer2222/podtato-head/ in your GitHub account.
 
 Clone your repository :
 
@@ -13,12 +13,12 @@ cd podtato-head
 export ROOT_DIR=$(pwd)
 ```
 
-Replace all "yogeek" occurencces by your github username.
+Replace all "gozer2222" occurencces by your github username.
 Either your IDE "find/replace all" feature or a sed :
 
 ```
 export GITHUB_USER=toto
-find . -type f -not -path "./.git/*" | xargs grep -l yogeek | xargs sed -i 's/yogeek/'"$GITHUB_USER"'/g'
+find . -type f -not -path "./.git/*" | xargs grep -l gozer2222 | xargs sed -i 's/gozer2222/'"$GITHUB_USER"'/g'
 ```
 
 Commit and push
